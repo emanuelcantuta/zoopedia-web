@@ -1,0 +1,191 @@
+.body{
+    font-family:"cursive";
+    overflow-x: hidden;
+    display: block;
+    margin: 0px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(5,50,4,1) 0%, rgba(21,74,12,1) 25%, rgba(25,81,14,1) 32%, rgba(42,107,23,1) 58%, rgba(47,115,26,1) 66%, rgba(57,130,31,1) 81%, rgba(69,149,37,1) 100%);
+    color: white;
+}
+
+/* pone inspeccionar en la pagina donde esta el boostrap y veras que dice body con su css y reboot
+*/
+*{
+    color: rgba(255, 255, 255, 0.826);
+}
+
+
+/* nav */
+
+header{
+    font-family: Century Gothic, sans-serif;
+}
+
+nav{
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    background-color: rgba(10,139,207, 0.685);
+    font-family: Century Gothic, sans-serif;
+    justify-content: space-between;
+}
+
+
+.logo a{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: white;
+}
+
+nav a{
+    margin: 10px;
+    color: white;
+}
+
+nav h3{
+    height: 30px;
+    display: block;
+    width: auto;
+    margin: 0;
+    margin-top: 1px;
+}
+.logo img{
+    height: 40px;
+    display: block;
+    width: 40px;
+    margin: 0 10px 0 5px;
+    border-radius: 10px;
+}
+
+/*PORTADA*/
+
+.portada{
+    height: 40vh;
+    position: relative;
+}
+
+.cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+figure{
+    display: block;
+
+}
+
+.portada figure{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-image: url(../img/portada.jpg);
+    background-repeat: repeat-x;
+    background-size: 40%;
+}
+
+.info{
+    background-color: rgba(7,39,54,.6);;
+    /*rgba(7,39,54,.6);*/
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.info h1{
+    display: contents;
+}
+
+
+/* container*/
+
+h1{
+    text-align: center;
+    text-decoration: dashed;
+    text-shadow: 7px 4px 5px black;
+}
+
+
+.card{
+    margin:0px auto;
+}
+
+.card-body{
+    height: 448px;
+}
+
+#card2{
+    height: 700px;
+}
+
+.col .card-body .card-title{
+    color: #000; 
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+} 
+
+.col .card-body .card-text{
+    color: #000; 
+}
+
+li{
+    color: #000;
+}
+
+#cardimg{
+    width: 286px;
+    height: 207px;
+}
+
+
+/* footer*/
+
+footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: "din-2014",sans-serif;
+    background-color:rgba(10,139,207, 0.685) ;
+}
+
+.logof{
+    display: inline-flex;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.logof img{
+    height: 40px;
+    display: block;
+    width: 40px;
+    margin: 0;
+}
+
+.text-foot{
+display: flex;
+width: 100%;
+margin-left: 10px;
+margin-top: 10px;
+}
