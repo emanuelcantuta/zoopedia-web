@@ -3,6 +3,3 @@
 tegnologias: html5,css3
 
 framework: boostrap4
-
-
-
